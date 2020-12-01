@@ -1,0 +1,174 @@
+html{
+    font-family: 'Indie Flower', cursive;
+
+}
+
+
+@media screen and (min-width: 900px) {
+  article {
+    padding: 1rem 3rem;
+  }
+}
+
+#movie-backdrop {
+    width: 100%;
+
+}
+
+img {
+   cursor: pointer;
+   width: 100%;
+}
+#actors {
+    margin: 24px 16px 0 0;
+}
+.credits{
+  display: flex;
+  justify-content: space-around;
+}
+.Related {
+  display: flex;
+  justify-content: space-around;
+}
+.movie-production{
+  display: flex;
+  justify-content: space-around;
+}
+.inner_footer .footer_third apan{
+  color: white;
+  font-family: 'Indie Flower', cursive;
+}
+
+.list-unstyled img{
+width: 8%;
+}
+
+#actor-image{
+  width: 40%;
+}
+#actor-biography{
+ padding: 30px; 
+}
+.ActorsMovies {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.container img {
+	border-radius: 25px;
+}
+.container img:hover {
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 25%);
+}
+
+
+body {
+	padding: 0;
+	color: rgb(7, 7, 7);
+	line-height: 24px;
+}
+
+html {
+    box-sizing: border-box;
+  }
+
+.container {
+	padding-top: 32px;
+}
+
+/* .row {
+display: flex;
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px;
+}
+
+.col-md-4 {
+flex: 0 0 33.333333%;
+max-width: 33.333333%;
+position: relative;
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+
+} */
+
+footer {
+	padding: 10px 20px;
+	background-color: #f8f9fa;
+	color: #666;
+  position: absolute;
+  width: 100%;
+}
+
+.about {
+  height: 60vh;
+  text-align: center;
+}
+
+
+.movieImg {
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 25%);
+}
+
+.overlay:hover {
+	opacity: 1;
+}
+
+
+.fa:hover {
+	opacity: 0.9;
+	color: #ffc105;
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+::-webkit-scrollbar {
+	width: 15px;
+	height: 18px;
+}
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+	background: #c5cdcf;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #787d83;
+}
+
+
+.overlay {
+	position: absolute;
+	overflow: auto;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: 0.8s ease;
+	background: #f8f9fa;	
+}
+
+.overlay:hover {
+	opacity: 1;
+}
+
+.text {
+	color: rgb(22, 20, 20);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 13px;
+}
+.yellow {
+  color: rgb(199, 199, 55);
+} 
